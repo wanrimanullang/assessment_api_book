@@ -4,35 +4,35 @@ Book API adalah aplikasi Laravel sederhana untuk mengelola informasi buku, terma
 ## Instalasi
 1. Clone repositori:
    ```bash
-   git clone https://github.com/username/repo.git```
+   git clone https://github.com/username/repo.git
 
 2. Pindah ke direktori proyek:
   ```bash
-  cd repo```
+  cd repo
 
 3. Instal dependensi dengan Composer:
   ```bash
-  composer install```
+  composer install
 
 4. Salin file .env.example ke .env dan atur koneksi database
   ```bash
-  cp .env.example .env```
+  cp .env.example .env
 
 5. Salin file .env.example ke .env dan atur koneksi database
   ```bash
-  cp .env.example .env```
+  cp .env.example .env
 
 6. Generate key aplikasi
   ```bash
-  php artisan key:generate```
+  php artisan key:generate
 
 7. Jalankan migrasi dan seeder untuk menyiapkan basis data
   ```bash
-  php artisan migrate --seed```
+  php artisan migrate --seed
 
 8. Jalankan server development
   ```bash
-  php artisan serve```
+  php artisan serve
 
 
 Tentu, berikut adalah contoh dokumen README.md yang rapi dan informatif untuk API Book menggunakan Laravel:
@@ -98,7 +98,7 @@ Contoh Permintaan:
       "title": "Judul Buku",
       "author": "Penulis",
       "published_year": 2022
-    }```
+    }
 
 4. Perbarui Informasi Buku Berdasarkan ID
 Endpoint: PUT /api/books/{id}
@@ -111,7 +111,7 @@ Contoh Permintaan:
       "author": "Penulis yang Diperbarui",
       "published_year": 2023
     }
-    ```
+    
 5. Hapus Buku Berdasarkan ID
 Endpoint: DELETE /api/books/{id}
 
